@@ -1,0 +1,1 @@
+recaptcha v2 test key and customizations FAQ - https://developers.google.com/recaptcha/docs/faq
