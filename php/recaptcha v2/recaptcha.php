@@ -5,19 +5,15 @@ if(isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'
         //get verify response data
         $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret='.$secret.'&response='.$_POST['g-recaptcha-response']);
         //$responseData = json_encode($verifyResponse);
-        
         $responseData = json_decode($verifyResponse);
       //  echo json_encode($responseData->success);
-
         if(json_encode($responseData->success)){
             //Success, do stuff here
-            echo "Success! Hello ". $_POST["firstname"];
-            
+            echo "Success! Hello ". $_POST["firstname"];   
         } 
     } else{
 		echo "Could not verify captcha";
 	}
-
 ?>
 
  <html>
