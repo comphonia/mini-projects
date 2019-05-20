@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AKW.Banking.UI", "AKW.Banking.UI\AKW.Banking.UI.csproj", "{9BAA2778-4DB8-4258-B954-B6B31921A617}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AKW.Banking.BL", "AKW.Banking.BL\AKW.Banking.BL.csproj", "{5497E592-4B27-4BB0-B4FA-B1DC2E3FE16D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BAA2778-4DB8-4258-B954-B6B31921A617}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BAA2778-4DB8-4258-B954-B6B31921A617}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BAA2778-4DB8-4258-B954-B6B31921A617}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BAA2778-4DB8-4258-B954-B6B31921A617}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5497E592-4B27-4BB0-B4FA-B1DC2E3FE16D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5497E592-4B27-4BB0-B4FA-B1DC2E3FE16D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5497E592-4B27-4BB0-B4FA-B1DC2E3FE16D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5497E592-4B27-4BB0-B4FA-B1DC2E3FE16D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8A89693-05C6-4C4E-9954-6ED343175F5D}
+	EndGlobalSection
+EndGlobal
